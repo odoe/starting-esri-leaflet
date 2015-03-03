@@ -1,0 +1,17 @@
+{
+  "name": "eleaf-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "http-server",
+    "watch": "watchify src/index.js src/popup.js -o bundle.js -dv",
+    "start-dev": "npm start | npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "watchify": "~2.4.0",
+    "http-server": "~0.7.5"
+  }
+}
